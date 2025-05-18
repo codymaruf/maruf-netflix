@@ -104,7 +104,7 @@ nav button{
   .tv_section {
     flex-direction: column;
     padding: 5vw;
-      gap: 20px;
+    gap: 20px;
   }
   
   .tv_section > * {
