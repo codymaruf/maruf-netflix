@@ -100,3 +100,19 @@ nav button{
 .tv video{
     width: 30vw;
 }
+@media (max-width: 768px) {
+  .tv_section {
+    flex-direction: column;
+    padding: 5vw;
+  }
+  
+  .tv_section > * {
+    margin-bottom: 20px; /* optional spacing between items */
+    width: 100%; /* make children take full width */
+  }
+  
+  .tv video {
+    width: 100%; /* video takes full width on small devices */
+    height: auto;
+  }
+}
