@@ -1,0 +1,102 @@
+@import "tailwindcss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: segoe UI;
+    color: #fff;
+}
+main{
+    height: 100vh;
+    background-size: 300vmin;
+    display: flex;
+    flex-direction: column;
+   
+}
+main .box{
+    width: 100%;
+    height: 100%;
+    opacity: .4;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+}
+nav{
+    z-index: 1;
+    position: relative;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    height: 65px;
+    align-items: center;
+    margin: 17px auto;
+}
+nav img{
+    width: 12vmax;
+}
+nav button{
+    font-size: 14px;
+    line-height: 14px;
+    color: #fff;
+    background-color: #fe131d;
+    width: 80px;
+    height: 33px;
+    border: none;
+    border-radius: 3px;
+}
+.hero{
+    position: relative;
+    margin: auto auto;
+    text-align: center;
+}
+.hero h1{
+    font-weight: 900;
+    font-size: 48px;
+
+}
+.hero p{
+    font-size: 22px;
+    margin: 10px 0;
+}
+.manage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero input{
+    height: 50px;
+    width: calc(49vmin-10px);
+    background-color: #000000d1;
+    border: none;
+    border-radius: 3px ;
+    font-size: 17px;
+    padding: 25px;
+}
+.hero button{
+    height: 56px;
+    width: 212px;
+    background-color: #fe131d;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-left: 13px;
+}
+.devider{
+    height: 13px;
+    width: 100%;
+    background-color: #121212;
+}
+.tv_section{
+    width: 100%;
+    display: flex;
+    padding: 15vw;
+    justify-content: space-between;
+}
+.tv_{
+    width: fit-content;
+}
+.tv video{
+    width: 30vw;
+}
